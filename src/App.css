@@ -1,0 +1,70 @@
+.footer {
+    background-image: url("../src/ocean.jpg");
+}
+.intro {
+    background-image: url("../src/ocean.jpg");
+}
+.footer1 {
+    margin-top: 1px;
+}
+.profileimg {
+    width: 160px;
+    height: 160px;
+}
+.image {
+    padding: 0;
+}
+.maindiv {
+    height: 200px;
+     padding: 100px;
+}
+.imagelogo{
+    width: 670px;
+    height: 400px;
+}
+.profile {
+    margin: 1px;
+}
+.profiletext{ 
+    width: 25%;
+
+}
+.container1{
+    width: 400px;
+}
+@media  (max-width: 570px) {
+    .footer1 {
+        margin-top: 600px; /* Adjust this value as needed */
+    }
+    .imagelogo{
+        width: 100%;
+        height: 300px;
+    }
+    .profiletext {
+        width: 100%;
+        
+        
+
+    }
+   
+    .image {
+        background-size: cover;
+        ;
+    width:200px;
+    }
+    .maindiv {
+        padding: 0;
+        margin-top: 100px;
+        padding: 10px;
+    }
+    .profile {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .container1{
+        width: 200px;
+    }
+}
